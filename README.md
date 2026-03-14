@@ -23,6 +23,7 @@ El proyecto fue desarrollado como parte de prácticas del módulo de Desarrollo 
 ```
 backend-jwt
 │
+├── node_modules
 ├── src
 │   ├── controllers
 │   ├── models
@@ -31,7 +32,6 @@ backend-jwt
 │   ├── app.js
 │   └── server.js
 │
-├── node_modules
 ├── .env
 ├── package.json
 └── README.md
@@ -42,7 +42,7 @@ backend-jwt
 1️⃣ **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/TU_USUARIO/backend-jwt.git
+git clone https://github.com/bermeo2000/Backend-JWT-API---Node.js.git
 ```
 
 2️⃣ **Entrar al proyecto**
@@ -67,7 +67,7 @@ CREATE DATABASE daw_espam;
 
 🔑 **Configuración del archivo .env**
 
-Crear un archivo `.env` en la raíz del proyecto:
+Crear un archivo `.env` en la raíz del proyecto y pega esto de abajo
 
 ```
 PORT=5000
